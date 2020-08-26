@@ -6,7 +6,7 @@ struct SecondView: View {
     
     var body: some View {
         VStack {
-            Text("Hello, World! \(item)")
+            Text("\(item)")
                 .navigationBarTitle("Second View", displayMode: .automatic)
                 .navigationBarItems(trailing:
                     HStack {

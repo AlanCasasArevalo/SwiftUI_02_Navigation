@@ -4,11 +4,20 @@ import SwiftUI
 struct ContentView: View {
     
     @State private var modal = false
+    @State private var text = ""
     
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: SecondView(item: "Message from main view")) {
+                TextField("Escribe algo aqui", text: $text)
+                    .padding()
+                    .background(
+                        Color(.white)
+                )
+                    .frame(width: 250, height: 50, alignment: .center)
+                .padding()
+
+                NavigationLink(destination: SecondView(item: self.text)) {
                     HStack{
                         Image(systemName: "hand.point.right.fill")
                             .foregroundColor(.white)
