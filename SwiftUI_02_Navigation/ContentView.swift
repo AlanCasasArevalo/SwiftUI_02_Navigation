@@ -6,6 +6,8 @@ struct ContentView: View {
     @State private var modal = false
     @State private var text = ""
     
+    @State private var country = ""
+    
     var body: some View {
         NavigationView {
             VStack {
@@ -41,7 +43,7 @@ struct ContentView: View {
                     self.modal.toggle()
                 }
                 .sheet(isPresented: self.$modal) {
-                    ModalView()
+                    ModalView(item: 12331, country: self.$country, modal: self.$modal)
                 }
                 .padding()
                 .background(
@@ -49,6 +51,13 @@ struct ContentView: View {
                 )
                     .cornerRadius(10, antialiased: true)
                     .shadow(color: .gray, radius: 10, x: 10, y: 15)
+                    .padding(.bottom, 20)
+                
+                Text("Tu pais es: \(self.country) ")
+                    .foregroundColor(.black)
+                    .font(.system(.largeTitle, design: .rounded))
+                    .shadow(color: .gray, radius: 2, x: 5, y: 5)
+                
             }
         }
     }
