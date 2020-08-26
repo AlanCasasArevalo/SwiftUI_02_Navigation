@@ -1,9 +1,12 @@
 import SwiftUI
 
 struct SecondView: View {
+    
+    var item: String
+    
     var body: some View {
         VStack {
-            Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+            Text("Hello, World! \(item)")
                 .navigationBarTitle("Second View", displayMode: .automatic)
                 .navigationBarItems(trailing:
                     HStack {
@@ -25,6 +28,6 @@ struct SecondView: View {
 
 struct SecondView_Previews: PreviewProvider {
     static var previews: some View {
-        SecondView()
+        SecondView(item: "_")
     }
 }

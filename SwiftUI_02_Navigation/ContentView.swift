@@ -8,7 +8,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             VStack {
-                NavigationLink(destination: SecondView()) {
+                NavigationLink(destination: SecondView(item: "Message from main view")) {
                     HStack{
                         Image(systemName: "hand.point.right.fill")
                             .foregroundColor(.white)
