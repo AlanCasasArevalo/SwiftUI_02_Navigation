@@ -14,6 +14,7 @@
 		51C35F6024F64BFC009F0047 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51C35F5F24F64BFC009F0047 /* Preview Assets.xcassets */; };
 		51C35F6324F64BFC009F0047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C35F6124F64BFC009F0047 /* LaunchScreen.storyboard */; };
 		51C35F6B24F64C8C009F0047 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F6A24F64C8C009F0047 /* SecondView.swift */; };
+		51C35F6D24F65B98009F0047 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F6C24F65B98009F0047 /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		51C35F6224F64BFC009F0047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		51C35F6424F64BFC009F0047 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		51C35F6A24F64C8C009F0047 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		51C35F6C24F65B98009F0047 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				51C35F5824F64BFB009F0047 /* SceneDelegate.swift */,
 				51C35F5A24F64BFB009F0047 /* ContentView.swift */,
 				51C35F6A24F64C8C009F0047 /* SecondView.swift */,
+				51C35F6C24F65B98009F0047 /* ThirdView.swift */,
 				51C35F5C24F64BFC009F0047 /* Assets.xcassets */,
 				51C35F6124F64BFC009F0047 /* LaunchScreen.storyboard */,
 				51C35F6424F64BFC009F0047 /* Info.plist */,
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				51C35F5724F64BFB009F0047 /* AppDelegate.swift in Sources */,
+				51C35F6D24F65B98009F0047 /* ThirdView.swift in Sources */,
 				51C35F5924F64BFB009F0047 /* SceneDelegate.swift in Sources */,
 				51C35F6B24F64C8C009F0047 /* SecondView.swift in Sources */,
 				51C35F5B24F64BFB009F0047 /* ContentView.swift in Sources */,

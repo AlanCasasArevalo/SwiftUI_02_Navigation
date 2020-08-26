@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  SwiftUI_02_Navigation
-//
-//  Created by Everis on 26/08/2020.
-//  Copyright © 2020 Alan. All rights reserved.
-//
 
 import SwiftUI
 
