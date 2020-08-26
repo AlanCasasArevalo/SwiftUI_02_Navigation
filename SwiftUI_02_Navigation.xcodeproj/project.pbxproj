@@ -16,6 +16,7 @@
 		51C35F6B24F64C8C009F0047 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F6A24F64C8C009F0047 /* SecondView.swift */; };
 		51C35F6D24F65B98009F0047 /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F6C24F65B98009F0047 /* ThirdView.swift */; };
 		51C35F6F24F66145009F0047 /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F6E24F66145009F0047 /* ModalView.swift */; };
+		51C35F7124F66C62009F0047 /* ModalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C35F7024F66C62009F0047 /* ModalModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		51C35F6A24F64C8C009F0047 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 		51C35F6C24F65B98009F0047 /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 		51C35F6E24F66145009F0047 /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
+		51C35F7024F66C62009F0047 /* ModalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 				51C35F5624F64BFB009F0047 /* AppDelegate.swift */,
 				51C35F5824F64BFB009F0047 /* SceneDelegate.swift */,
 				51C35F5A24F64BFB009F0047 /* ContentView.swift */,
+				51C35F7024F66C62009F0047 /* ModalModel.swift */,
 				51C35F6A24F64C8C009F0047 /* SecondView.swift */,
 				51C35F6C24F65B98009F0047 /* ThirdView.swift */,
 				51C35F6E24F66145009F0047 /* ModalView.swift */,
@@ -159,6 +162,7 @@
 				51C35F5724F64BFB009F0047 /* AppDelegate.swift in Sources */,
 				51C35F6D24F65B98009F0047 /* ThirdView.swift in Sources */,
 				51C35F5924F64BFB009F0047 /* SceneDelegate.swift in Sources */,
+				51C35F7124F66C62009F0047 /* ModalModel.swift in Sources */,
 				51C35F6B24F64C8C009F0047 /* SecondView.swift in Sources */,
 				51C35F5B24F64BFB009F0047 /* ContentView.swift in Sources */,
 			);

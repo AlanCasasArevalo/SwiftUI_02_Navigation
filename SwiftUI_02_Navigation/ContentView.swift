@@ -3,10 +3,8 @@ import SwiftUI
 
 struct ContentView: View {
     
-    @State private var modal = false
     @State private var text = ""
-    
-    @State private var country = ""
+    @State private var dataModel = ModalModel()
     
     var body: some View {
         NavigationView {
@@ -40,10 +38,10 @@ struct ContentView: View {
                 .padding(.bottom, 20)
                 
                 Button("Ventana modal") {
-                    self.modal.toggle()
+                    self.dataModel.modal.toggle()
                 }
-                .sheet(isPresented: self.$modal) {
-                    ModalView(item: 12331, country: self.$country, modal: self.$modal)
+                .sheet(isPresented: self.$dataModel.modal) {
+                    ModalView(dataModel: self.$dataModel)
                 }
                 .padding()
                 .background(
@@ -53,7 +51,7 @@ struct ContentView: View {
                     .shadow(color: .gray, radius: 10, x: 10, y: 15)
                     .padding(.bottom, 20)
                 
-                Text("Tu pais es: \(self.country) ")
+                Text("Tu pais es: \(self.dataModel.country) ")
                     .foregroundColor(.black)
                     .font(.system(.largeTitle, design: .rounded))
                     .shadow(color: .gray, radius: 2, x: 5, y: 5)
